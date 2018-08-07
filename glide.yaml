@@ -1,0 +1,8 @@
+package: .
+import:
+- package: github.com/ipfans/echo-session
+  version: v3.2.0
+- package: github.com/labstack/echo
+  version: 3.3.5
+- package: github.com/Masterminds/cookoo
+  version: v1.3.0

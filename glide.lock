@@ -1,0 +1,53 @@
+hash: 855f0e117a943070b80ed40e11c32c959a67a9c83902aafa52a29c781783828b
+updated: 2018-08-07T14:03:12.99621204+09:00
+imports:
+- name: github.com/antonlindstrom/pgstore
+  version: a407030ba6d0efd9a1aad3d0cfc18a9b13d2f2e7
+- name: github.com/boj/redistore
+  version: 82b86d293eb292dd6949fadc09388c47f095dc54
+- name: github.com/gomodule/redigo
+  version: 2cd21d9966bf7ff9ae091419744f0b3fb0fecace
+  subpackages:
+  - internal
+  - redis
+- name: github.com/gorilla/context
+  version: 08b5f424b9271eedf6f9f0ce86cb9396ed337a42
+- name: github.com/gorilla/securecookie
+  version: 78f3d318a8bf316cda921f25e96fd0b441c5173d
+- name: github.com/gorilla/sessions
+  version: 03b6f63cc43ef9c7240a635a5e22b13180e822b8
+- name: github.com/ipfans/echo-session
+  version: 2466744a5f662206a2257ab467d21712eb9153fc
+- name: github.com/labstack/echo
+  version: 6d227dfea4d2e52cb76856120b3c17f758139b4e
+- name: github.com/labstack/gommon
+  version: 2a618302b929cc20862dda3aa6f02f64dbe740dd
+  subpackages:
+  - color
+  - log
+- name: github.com/lib/pq
+  version: 90697d60dd844d5ef6ff15135d0203f65d2f53b8
+  subpackages:
+  - oid
+- name: github.com/Masterminds/cookoo
+  version: 78aa11ce75e257c51be7ea945edb84cf19c4a6de
+- name: github.com/mattn/go-colorable
+  version: efa589957cd060542a26d2dd7832fd6a6c6c3ade
+- name: github.com/mattn/go-isatty
+  version: 6ca4dbf54d38eea1a992b3c722a76a5d1c4cb25c
+- name: github.com/pkg/errors
+  version: 816c9085562cd7ee03e7f8188a1cfd942858cded
+- name: github.com/valyala/bytebufferpool
+  version: e746df99fe4a3986f4d4f79e13c1e0117ce9c2f7
+- name: github.com/valyala/fasttemplate
+  version: dcecefd839c4193db0d35b88ec65b4c12d360ab0
+- name: golang.org/x/crypto
+  version: 80fca2ff14a3fb7db622c9a5462f8ce9ea026cba
+  subpackages:
+  - acme
+  - acme/autocert
+- name: golang.org/x/sys
+  version: 2be389f392cd91df245b41638f818a1c041f0c08
+  subpackages:
+  - unix
+testImports: []
